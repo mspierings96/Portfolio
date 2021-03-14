@@ -1,133 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mitchell Spierings Portfolio</title>
+        <link rel ="stylesheet" href="./assets/style.css" />
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <h1>Mitchell Spierings</h1>
+            <nav>
+                <!--Unordered list elements-->
+                <ul>
+                    <!--List item elements-->
+                    <li>
+                        <a href="#About-Me">About Me</a>   
+                    </li>
+                    <li>
+                        <a href="#My-Work">My Work</a>   
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact Me</a>   
+                    </li>
+                    <li>
+                        <a href="./resume.html">Resume</a>   
+                    </li>                    
+                </ul>
+            </nav>
+        </header>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mitchell Spierings Portfolio</title>
-  <link rel="stylesheet" href="C:\Users\mitch\Documents\Portfolio\MSJ\assets\style.css" />
-</head>
-<body>
-    <!-- Navigation -->
-    <header>
-        <h1>
-            Mitchell Spierings
-        </h1>
-        <nav>
-            <ul>
-                <!-- Unordered list element -->
-                <li>
-                    <!-- Anchor element -->
-                    <a href="#About-Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#My-Work">My Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Information">Contact Information</a>
-                </li>
-                <li>
-                    <a href="#Resume">My Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- end navigation -->
-
-    <!-- hero/jumbrotron -->
-    <section class="hero">        
-        <img class="Hero" src="./assets/images/hero-bg.jpg" alt="Hero Image"/>
-        <div>
-            <h2>Creative Junior Web Deveoper</h2>
-        </div>
-    </section>
-    <!-- end hero/jumbotron -->
-
-    <!-- "About Me" start -->
-    <section id="About-Me" class="content">
-        <div class="flex-row">
-          <h2 class="section-title">About Me</h2> 
-        </div>
-        <div class="step-info">
-            <div class="vl-border1">
-        </div>
-            <div class="step-text"> 
-                <p>
-                Hello! Thank you for checking out my Web Development Portfolio! My name is Mitchell Spierings, I was born & raised a Wisconsin kid through & through. I attended the University of Wisconsin Oshkosh from 2014 to 2018, and graduated with a Bachelors Degree in Business Management with an emphasis in Insurance & Risk Management. Before entering the career field of Web Development, I held several positions as a Large Loss Insurance Adjuster. I was fortenate enough to travel the country with this position, but always aspired to being passioante about my career & creating something on a daily basis. I am 25 years old, and grew up in & around the Madison, Wisconsin area. A few of my favorite hobbies are fishing, hunting, weight lifting, and of course web development! Please review my portfolio, and reach out to me if you would like to work together!
-                </p>
+         <!-- hero/jumbotron -->
+         <section class="hero">        
+            <img class="personalpic" src="./assets/images/Pic.png" alt="picture of myself"/>
+            <div>
+                <h2>Creative Junior Web Deveoper</h2>
             </div>
-    </section>
-    <!-- end "About Me" section-->
+        </section>
 
-    <!-- "Work" Section Starts -->
-    <section id="My-Work" class="content">
-        <div class="flex-row ">
-          <h2 class="section-title">Work done</h2> 
-        </div>
-        <div class="step-info">
-            <div class="vl-border2">
+         <!-- About ME section -->
+         <section id="About-Me" class="Content">
+            <div class="flex-row">
+              <h2 class="section-title">About Me</h2> 
             </div>
-            <!--CSS grid of images-->
-            <div class="container">
-               <div class="gallery">                       
-                <figure class="gallery__item gallery__item--1">
-                    <a href="">
-                        <img src="" class="" alt="">
-                        <figcaption>Horiseon</br>HTML & CSS</figcaption>
-                    </a>
-                </figure>
-                
-                <figure class="gallery_item gallery_item--2"
-                    <a href="">
-                        <img src="" class="" alt=""
-                        <figcaption>Run Buddy</br>HTML & CSS</figcaption>
-                    </a>
-                </figure>
-
-                <figure class="gallery_item gallery_item--3">
-                    <a href="">
-                        <figcaption>Robot Gladiator</br>HTML & JAVASCRIPT</figcaption>
-                    </a>
-                </figure>
+            <div class="step-info">
+                <div class="vl-border1">
             </div>
+                <div class="step-text">
+                    <p>
+                        Hello! Thank you for checking out my Web Development Portfolio! My name is Mitchell Spierings, I was born & raised a Wisconsin kid through & through. I attended the University of Wisconsin Oshkosh from 2014 to 2018, and graduated with a Bachelors Degree in Business Management with an emphasis in Insurance & Risk Management. Before entering the career field of Web Development, I held several positions as a Large Loss Insurance Adjuster. I was fortenate enough to travel the country with this position, but always aspired to being passioante about my career & creating something on a daily basis. I am 25 years old, and grew up in & around the Madison, Wisconsin area. A few of my favorite hobbies are fishing, hunting, weight lifting, and of course web development! Please review my portfolio, and reach out to me if you would like to work together!
+                    </p>
+                </div>
+         </section>
 
-        </div>
+         
+         <!-- Work section -->
+        <section id="My-Work" class="Content">
+            <div class="flex-row ">
+              <h2 class="section-title">Examples of My Work</h2> 
+            </div>
+            <div class="step-info">
+                <div class="vl-border2">
+                </div>
+                <!-- GRID BREAKDOWN OF IMAGES BEGINS -->
+                <div class="container">
+                   <div class="gallery">                       
+                    <figure class="gallery__item gallery__item--1">
+                        <a href="">
+                            <img src="" class="gallery__img" alt="Run Buddy Website">
+                            <figcaption></br>HTML CSS</figcaption>                 
+                        </a>
+                        </figure>
 
-    </section>
+                      <figure class="gallery__item gallery__item--2">
+                          <a href="">
+                            <img src="" class="gallery__img" alt="Horiseon Website">
+                            <figcaption>Horiseon</br>HTML CSS</figcaption>
+                          </a>
+                      </figure>
 
-    <!-- "CONTACT" section starts -->
-    <section id="Contact-Info" class="content">
-        <div class="flex-row"
-            <h2 class="section-title">Contact Me</h2> 
-        </div>
-    <div class="step-info">
-        <div class="vl-border3">
-        </div>
-        <div class="contact-info">
-            <ul>    
-                <li>
-                    <a href="#number">608 512 8127</a>
-                </li>
-                <li>
-                    <a href="mailto:Mitchell.Spierings@gmail.com">Email: Mitchell.Spierings@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://github.com/mspierings96" target="_blank">My Git Hub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/feed/" target="_blank">My LinkdIn</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+                      <figure class="gallery__item gallery__item--3">
+                        <a href="">
+                            <img src="" class="gallery__img" alt="ROBOT GLADIATOR Website">
+                            <figcaption>Robot Gladiator</br>HTML Javascript</figcaption>
+                        </a>
+                      </figure>
 
-    <!-- Footer begins-->
-    <footer>
-        <h2>
-            Created by Mitchell Spierings.
-        </h2>
-        &copy; 2021 Mitchell Spierings, Inc.
-    </footer>
-    <!-- Footer ends -->
-</body>
+                      <figure class="gallery__item gallery__item--4">
+                        <a href="#">
+                            <img src="" class="gallery__img" alt="">
+                            <figcaption></br></figcaption>
+                        </a>
+                      </figure>
+
+                      <figure class="gallery__item gallery__item--5">
+                        <a href="#">
+                            <img src="" class="gallery__img" alt="">
+                            <figcaption></br></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                </div>
+                <!-- GRID BREAKDOWN BENDS-->
+            </div>
+        </section>
+
+        <!-- CONTACT INFO BEGIN -->
+        <section id="Contact" class="Content">
+             <div class="flex-row">
+                <h2 class="section-title">
+                    Contact Me
+                </h2> 
+            </div>
+            <div class="step-info">
+            <div class="vl-border3">
+            </div>
+            <div class="contact-info">
+                <ul>
+                    <!--List item elements-->
+                    <li>
+                        <a href="#number">608 512 8127</a>
+                    </li>
+                    <li>
+                        <a href="mailto:Mitchell.Spierings@gmail.com">Email: Mitchell.Spierings@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mspierings96" target="_blank">My Git Hub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/" target="_blank">My LinkdIn</a>  
+                    </li>                 
+                </ul>
+            </div>
+        </section>  
+        <!-- CONTACT INFO ENDS -->
+        
+        <!-- FOOTER BEGINS -->
+        <footer>
+                <h2>
+                    Created by Mitchell Spierings.
+                </h2>
+                &copy; 2021 Mitchell Spierings, Inc.
+        </footer>
+        <!-- FOOTER ENDS -->
+    </body>
 </html>
+
