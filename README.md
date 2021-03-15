@@ -15,7 +15,7 @@ This website serves a look into the various projects & sites I have completed, r
 * CSS
 
 ## Website
-https://mspierings96.github.io/Horiseon/
+https://mspierings96.github.io/Portfolio/
 
 ## Git Repo Link
 https://github.com/mspierings96/Portfolio
