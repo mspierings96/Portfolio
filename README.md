@@ -8,7 +8,7 @@ This website serves a look into the various projects & sites I have completed, r
 
 ## Screenshot of my completed website
 
-
+![](https://github.com/mspierings96/Portfolio/blob/main/assets/Images/Siteshot.png)
 
 ## Built With
 * HTML
